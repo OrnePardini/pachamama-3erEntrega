@@ -105,66 +105,65 @@ header .nav-link:hover {
   display: flex;
   flex-direction: column;
 }
-.mainProductos .productosBackbround {
-  background-image: url("https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/themes/idea/slide-1606843316359-4482945457-e667eabb42cae97dc7e4c9348ff1a0471606843329.jpg?886905166");
-  background-size: cover;
+.mainProductos .prodsBackbround {
+  background-color: rgba(240, 255, 255, 0.662);
 }
-.mainProductos .productosBackbround .titulos {
+.mainProductos .prodsBackbround .titulos {
   font-size: 2.5rem;
   padding: 10px;
   color: #e58461;
   font-weight: bold;
   text-align: center;
 }
-.mainProductos .productosBackbround .container.filter {
+.mainProductos .prodsBackbround .container.filter {
   background-color: rgba(255, 255, 255, 0.956);
   border-radius: 0%;
 }
-.mainProductos .productosBackbround .container.filter .row {
+.mainProductos .prodsBackbround .container.filter .row {
   justify-content: center;
 }
-.mainProductos .productosBackbround .container.filter .row .card.filter {
+.mainProductos .prodsBackbround .container.filter .row .card.filter {
   background-color: grey;
   padding: 6px;
 }
-.mainProductos .productosBackbround .container.filter .row .card.filter form {
+.mainProductos .prodsBackbround .container.filter .row .card.filter form {
   width: 16rem;
   width: none;
   padding: none;
   margin: none;
   background-color: #f4f3ee;
 }
-.mainProductos .productosBackbround .container.filter .row .card.filter form input {
+.mainProductos .prodsBackbround .container.filter .row .card.filter form input {
   text-align: center;
 }
-.mainProductos .productosBackbround .container.filter .row .card.filter button {
+.mainProductos .prodsBackbround .container.filter .row .card.filter button {
   background-color: white;
   width: 16rem;
   color: black;
 }
-.mainProductos .productosBackbround .container.filter .row .card.filter .dropdown-menu {
+.mainProductos .prodsBackbround .container.filter .row .card.filter .dropdown-menu {
   text-align: center;
   width: 16rem;
 }
-.mainProductos .productosBackbround .container .row {
+.mainProductos .prodsBackbround .container .row {
   justify-content: center;
 }
-.mainProductos .productosBackbround .container .row .card {
+.mainProductos .prodsBackbround .container .row .card {
   align-items: center;
   justify-content: center;
   padding: 17px;
   margin: 8px;
   background-color: #f4f3ee;
 }
-.mainProductos .productosBackbround .container .row .card h5 {
+.mainProductos .prodsBackbround .container .row .card h5 {
   font-weight: 600;
   color: #cb997e;
 }
-.mainProductos .productosBackbround .container .row .card .btnColor {
+.mainProductos .prodsBackbround .container .row .card .btnColor {
   background-color: #e58461;
   color: white;
 }
-.mainProductos .productosBackbround .container .row .card .btnColor:hover {
+.mainProductos .prodsBackbround .container .row .card .btnColor:hover {
   background-color: black;
   color: #e58461;
 }
@@ -287,15 +286,7 @@ header .nav-link:hover {
 }
 
 @media (max-width: 740px) {
-  form input,
-form textarea {
-    margin: 1px 50px;
-  }
-}
-@media (max-width: 510px) {
-  form input,
-form textarea {
-    margin: 1px 10px;
-    width: 80vh;
+  .mainContacto .contactoBackground form {
+    width: 80%;
   }
 }/*# sourceMappingURL=main.css.map */

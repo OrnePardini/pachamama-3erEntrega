@@ -60,23 +60,12 @@
 
 //Tamaño Mediano
 @media (max-width: 740px) {
-    form {
-
-        input,
-        textarea {
-            margin: 1px 50px;
+    .mainContacto {
+        .contactoBackground {
+            form {
+                width: 80%;             
+            }
         }
     }
 }
 
-//Tamaño Chico
-@media (max-width: 510px) {
-    form {
-
-        input,
-        textarea {
-            margin: 1px 10px;
-            width: 80vh;
-        }
-    }
-}
