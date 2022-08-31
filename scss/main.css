@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;600;700&family=Montserrat:wght@300;600;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+header nav {
+  background-image: linear-gradient(to right, #e9e7da 70%, white);
+}
+header img {
+  width: 150px;
+  padding: 5px;
+}
+header .nav-link {
+  color: #cb997e;
+}
+header .nav-link:hover {
+  color: #e58461;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer ul li {
+  padding: 15px;
+}
+.footer ul li a {
+  color: #cb997e;
+}
+.footer ul li a:hover {
+  color: #e58461;
+  font-weight: bold;
+}
+.footer p {
+  color: #f4f3ee;
+}
+
+@media (max-width: 740px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+.mainIndex {
+  min-height: 65vh;
+  background-image: url("https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/themes/idea/slide-1606843316359-4482945457-e667eabb42cae97dc7e4c9348ff1a0471606843329.jpg?886905166");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.mainIndex .indexBackbround {
+  background-color: rgba(240, 255, 255, 0.588);
+  height: 65vh;
+  width: 100vw;
+  padding: 10px;
+}
+.mainIndex .indexBackbround .indexTitulos {
+  display: flex;
+  text-align: center;
+  height: 55vh;
+  flex-direction: column;
+  justify-content: center;
+}
+.mainIndex .indexBackbround .indexTitulos h1 {
+  font-size: 2.5rem;
+  padding: 10px;
+  color: #e58461;
+  font-weight: bold;
+}
+.mainIndex .indexBackbround .indexTitulos h1:hover {
+  transform: skew(-10deg);
+  font-size: 3rem;
+  transition: 4s;
+}
+.mainIndex .indexBackbround .indexTitulos h2 {
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.mainIndex .indexBackbround .indexTitulos h2 .animate__heartBeat {
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+}
+
+@media (max-width: 740px) {
+  .mainIndex {
+    min-height: 50vh;
+  }
+}
+.mainProductos {
+  background-image: url("https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/products/03-shiri1-46c59247bf3404383e16068387715475-1024-1024.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+.mainProductos .productosBackbround {
+  background-image: url("https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/themes/idea/slide-1606843316359-4482945457-e667eabb42cae97dc7e4c9348ff1a0471606843329.jpg?886905166");
+  background-size: cover;
+}
+.mainProductos .productosBackbround .titulos {
+  font-size: 2.5rem;
+  padding: 10px;
+  color: #e58461;
+  font-weight: bold;
+  text-align: center;
+}
+.mainProductos .productosBackbround .container.filter {
+  background-color: rgba(255, 255, 255, 0.956);
+  border-radius: 0%;
+}
+.mainProductos .productosBackbround .container.filter .row {
+  justify-content: center;
+}
+.mainProductos .productosBackbround .container.filter .row .card.filter {
+  background-color: grey;
+  padding: 6px;
+}
+.mainProductos .productosBackbround .container.filter .row .card.filter form {
+  width: 16rem;
+  width: none;
+  padding: none;
+  margin: none;
+  background-color: #f4f3ee;
+}
+.mainProductos .productosBackbround .container.filter .row .card.filter form input {
+  text-align: center;
+}
+.mainProductos .productosBackbround .container.filter .row .card.filter button {
+  background-color: white;
+  width: 16rem;
+  color: black;
+}
+.mainProductos .productosBackbround .container.filter .row .card.filter .dropdown-menu {
+  text-align: center;
+  width: 16rem;
+}
+.mainProductos .productosBackbround .container .row {
+  justify-content: center;
+}
+.mainProductos .productosBackbround .container .row .card {
+  align-items: center;
+  justify-content: center;
+  padding: 17px;
+  margin: 8px;
+  background-color: #f4f3ee;
+}
+.mainProductos .productosBackbround .container .row .card h5 {
+  font-weight: 600;
+  color: #cb997e;
+}
+.mainProductos .productosBackbround .container .row .card .btnColor {
+  background-color: #e58461;
+  color: white;
+}
+.mainProductos .productosBackbround .container .row .card .btnColor:hover {
+  background-color: black;
+  color: #e58461;
+}
+
+.quienesSomos {
+  background-image: url("https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/themes/idea/slide-1606843316359-4482945457-e667eabb42cae97dc7e4c9348ff1a0471606843329.jpg?886905166");
+  background-size: cover;
+}
+.quienesSomos .qsBackbround {
+  background-color: rgba(240, 255, 255, 0.662);
+}
+.quienesSomos .qsBackbround .titulos {
+  font-size: 2.5rem;
+  padding: 10px;
+  color: #e58461;
+  font-weight: bold;
+  text-align: center;
+}
+.quienesSomos .qsBackbround .col {
+  background-color: rgba(233, 231, 218, 0.462745098);
+  margin: 10px 5px;
+  padding: 10px 8px;
+}
+.quienesSomos .qsBackbround .col .fa-seedling,
+.quienesSomos .qsBackbround .col .col .fa-recycle,
+.quienesSomos .qsBackbround .col .fa-earth-americas {
+  font-size: 4rem;
+}
+.quienesSomos .qsBackbround .col p {
+  text-align: center;
+  line-height: 2;
+  padding: 10px 66px;
+}
+
+.mainFaq {
+  background-image: url("https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/products/55-shiri21-8e7f759a65d675b49f16068384488485-1024-1024.jpg");
+  background-size: cover;
+}
+.mainFaq .faqBackground {
+  background-color: rgba(240, 255, 255, 0.696);
+}
+.mainFaq .faqBackground .titulos {
+  font-size: 2.5rem;
+  padding: 10px;
+  color: #e58461;
+  font-weight: bold;
+  text-align: center;
+}
+.mainFaq .faqBackground .container.text-center .row .col {
+  background-color: rgba(233, 231, 218, 0.462745098);
+  margin: 10px 5px;
+  padding: 10px 8px;
+}
+.mainFaq .faqBackground .container.text-center .row .col h2 {
+  margin: 10px 5px;
+  padding: 10px;
+  text-align: center;
+}
+.mainFaq .faqBackground .container.text-center .row .col p {
+  padding: 10px;
+  text-align: center;
+}
+.mainFaq .faqBackground .container.text-center .row .col .fa-heart,
+.mainFaq .faqBackground .container.text-center .row .col .fa-hands-bubbles,
+.mainFaq .faqBackground .container.text-center .row .col .fa-soap {
+  font-size: 3rem;
+}
+
+.mainContacto {
+  background-image: url("https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/products/sorbete-aluminio1-836ec43b0fe50a332515730477862939-1024-1024.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.mainContacto .contactoBackground {
+  background-color: rgba(240, 255, 255, 0.844);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mainContacto .contactoBackground .titulos {
+  font-size: 2.5rem;
+  padding: 10px;
+  color: #e58461;
+  font-weight: bold;
+  text-align: center;
+}
+.mainContacto .contactoBackground p {
+  margin: 8px 160px;
+  padding: 10px;
+  text-align: center;
+  font-size: 120%;
+  color: black;
+}
+.mainContacto .contactoBackground form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.mainContacto .contactoBackground form input,
+.mainContacto .contactoBackground form textarea {
+  margin: 8px 160px;
+  padding: 10px;
+  text-align: center;
+  font-size: 120%;
+}
+.mainContacto .contactoBackground form a.btn.btnColor {
+  margin: 8px 160px;
+  padding: 10px 130px;
+  font-size: 120%;
+  background-color: #e58461;
+  color: white;
+}
+.mainContacto .contactoBackground form a.btn.btnColor:hover {
+  background-color: black;
+  color: #e58461;
+}
+
+@media (max-width: 740px) {
+  form input,
+form textarea {
+    margin: 1px 50px;
+  }
+}
+@media (max-width: 510px) {
+  form input,
+form textarea {
+    margin: 1px 10px;
+    width: 80vh;
+  }
+}/*# sourceMappingURL=main.css.map */

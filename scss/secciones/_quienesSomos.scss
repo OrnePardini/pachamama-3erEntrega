@@ -1,0 +1,34 @@
+.quienesSomos {
+    background-image: url('https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/themes/idea/slide-1606843316359-4482945457-e667eabb42cae97dc7e4c9348ff1a0471606843329.jpg?886905166');
+    background-size: cover;
+
+    .qsBackbround {
+        background-color: rgba(240, 255, 255, 0.662);
+
+        .titulos {
+            font-size: 2.5rem;
+            padding: 10px;
+            color: #e58461;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .col {
+            background-color: #e9e7da76;
+            margin: 10px 5px;
+            padding: 10px 8px;
+
+            .fa-seedling,
+            .col .fa-recycle,
+            .fa-earth-americas {
+                font-size: 4rem;
+            }
+
+            p {
+                text-align: center;
+                line-height: 2;
+                padding: 10px 66px;
+            }
+        }
+    }
+}

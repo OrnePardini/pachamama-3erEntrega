@@ -1,0 +1,90 @@
+.mainProductos {
+    background-image: url("https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/products/03-shiri1-46c59247bf3404383e16068387715475-1024-1024.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+
+    .productosBackbround {
+        background-image: url('https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/themes/idea/slide-1606843316359-4482945457-e667eabb42cae97dc7e4c9348ff1a0471606843329.jpg?886905166');
+        background-size: cover;
+
+        .titulos {
+            font-size: 2.5rem;
+            padding: 10px;
+            color: #e58461;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .container.filter {
+            background-color: rgba(255, 255, 255, 0.956);
+            border-radius: 0%;
+
+            .row {
+                justify-content: center;
+
+                .card.filter {
+                    background-color: grey;
+                    padding: 6px;
+
+                    form {
+                        width: 16rem;
+                        width: none;
+                        padding: none;
+                        margin: none;
+                        background-color: #f4f3ee;
+
+                        input {
+                            text-align: center;
+                        }
+                    }
+
+                    button {
+                        background-color: white;
+                        width: 16rem;
+                        color: black;
+                    }
+
+                    .dropdown-menu {
+                        text-align: center;
+                        width: 16rem;
+                    }
+                }
+
+
+            }
+        }
+
+        .container {
+            .row {
+                justify-content: center;
+
+                .card {
+                    align-items: center;
+                    justify-content: center;
+                    padding: 17px;
+                    margin: 8px;
+                    background-color: #f4f3ee;
+
+                    h5 {
+                        font-weight: 600;
+                        color: #cb997e
+                    }
+
+                    .btnColor {
+                        background-color: #e58461;
+                        color: white;
+
+                        &:hover {
+                            background-color: black;
+                            color: #e58461;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

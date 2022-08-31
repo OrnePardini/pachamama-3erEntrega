@@ -1,0 +1,44 @@
+.mainFaq {
+    background-image: url('https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/products/55-shiri21-8e7f759a65d675b49f16068384488485-1024-1024.jpg');
+    background-size: cover;
+
+    .faqBackground {
+        background-color: rgba(240, 255, 255, 0.696);
+
+        .titulos {
+            font-size: 2.5rem;
+            padding: 10px;
+            color: #e58461;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .container.text-center {
+            .row {
+                .col {
+                    background-color: #e9e7da76;
+                    margin: 10px 5px;
+                    padding: 10px 8px;
+
+                    h2 {
+                        margin: 10px 5px;
+                        padding: 10px;
+                        text-align: center;
+                    }
+
+                    p {
+                        padding: 10px;
+                        text-align: center;
+                    }
+
+                    .fa-heart,
+                    .fa-hands-bubbles,
+                    .fa-soap {
+                        font-size: 3rem;
+                    }
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,73 @@
+//FontFamily
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;600;700&family=Montserrat:wght@300;600;900&display=swap');
+//font-family: 'Hind', sans-serif; font-family: 'Montserrat', sans-serif;
+
+
+//Reseteo
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+//Header
+header {
+    nav {
+        background-image: linear-gradient(to right, #e9e7da 70%, white);
+    }
+
+    img {
+        width: 150px;
+        padding: 5px;
+    }
+
+    .nav-link {
+        color: #cb997e;
+
+        &:hover {
+            color: #e58461;
+            font-weight: bold;
+        }
+    }
+
+}
+
+
+//Footer
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+            padding: 15px;
+
+            a {
+                color: #cb997e;
+
+                &:hover {
+                    color: #e58461;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    p {
+        color: #f4f3ee;
+    }
+}
+
+// Tamaño Mediano
+@media(max-width: 740px) {
+    .footer {
+        flex-direction: column;
+    }
+}

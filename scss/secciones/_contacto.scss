@@ -1,0 +1,82 @@
+.mainContacto {
+    background-image: url("https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/products/sorbete-aluminio1-836ec43b0fe50a332515730477862939-1024-1024.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .contactoBackground {
+        background-color: rgba(240, 255, 255, 0.844);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .titulos {
+            font-size: 2.5rem;
+            padding: 10px;
+            color: #e58461;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        p {
+            margin: 8px 160px;
+            padding: 10px;
+            text-align: center;
+            font-size: 120%;
+            color: black;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+
+            input,
+            textarea {
+                margin: 8px 160px;
+                padding: 10px;
+                text-align: center;
+                font-size: 120%;
+            }
+
+            a.btn.btnColor {
+                margin: 8px 160px;
+                padding: 10px 130px;
+                font-size: 120%;
+                background-color: #e58461;
+                color: white;
+
+                &:hover {
+                    background-color: black;
+                    color: #e58461;
+                }
+            }
+        }
+    }
+}
+
+//Tamaño Mediano
+@media (max-width: 740px) {
+    form {
+
+        input,
+        textarea {
+            margin: 1px 50px;
+        }
+    }
+}
+
+//Tamaño Chico
+@media (max-width: 510px) {
+    form {
+
+        input,
+        textarea {
+            margin: 1px 10px;
+            width: 80vh;
+        }
+    }
+}
