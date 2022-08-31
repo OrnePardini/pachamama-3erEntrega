@@ -289,4 +289,7 @@ header .nav-link:hover {
   .mainContacto .contactoBackground form {
     width: 80%;
   }
+  .mainContacto .contactoBackground form .form-control {
+    width: 80%;
+  }
 }/*# sourceMappingURL=main.css.map */

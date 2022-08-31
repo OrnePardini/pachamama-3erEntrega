@@ -63,7 +63,10 @@
     .mainContacto {
         .contactoBackground {
             form {
-                width: 80%;             
+                width: 80%;
+                .form-control{
+                    width: 80%;
+                }             
             }
         }
     }
