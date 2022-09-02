@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;600;700&family=Montserrat:wght@300;600;900&display=swap');
 //font-family: 'Hind', sans-serif; font-family: 'Montserrat', sans-serif;
 
-
 //Reseteo
 * {
     margin: 0;
@@ -26,7 +25,7 @@ header {
         color: #cb997e;
 
         &:hover {
-            color: #e58461;
+            color: $RosaViejo;
             font-weight: bold;
         }
     }
@@ -34,14 +33,14 @@ header {
 }
 
 
-//Footer
+//Footer con BEM
 .footer {
     background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    ul {
+    &__ul {
         list-style: none;
         display: flex;
         flex-wrap: wrap;
@@ -53,7 +52,7 @@ header {
                 color: #cb997e;
 
                 &:hover {
-                    color: #e58461;
+                    color: $RosaViejo;
                     font-weight: bold;
                 }
             }

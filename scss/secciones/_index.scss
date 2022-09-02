@@ -3,10 +3,10 @@
     background-image: url("https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/themes/idea/slide-1606843316359-4482945457-e667eabb42cae97dc7e4c9348ff1a0471606843329.jpg?886905166");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center;    
 
     .indexBackbround {
-        background-color: rgba(240, 255, 255, 0.588);
+        background-color: #f0ffff96;
         height: 65vh;
         width: 100vw;
         padding: 10px;
@@ -21,7 +21,7 @@
             h1 {
                 font-size: 2.5rem;
                 padding: 10px;
-                color: #e58461;
+                color: $RosaViejo;
                 font-weight: bold;
 
                 &:hover {

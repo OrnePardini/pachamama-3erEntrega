@@ -27,18 +27,18 @@ header .nav-link:hover {
   justify-content: space-between;
   align-items: center;
 }
-.footer ul {
+.footer__ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
 }
-.footer ul li {
+.footer__ul li {
   padding: 15px;
 }
-.footer ul li a {
+.footer__ul li a {
   color: #cb997e;
 }
-.footer ul li a:hover {
+.footer__ul li a:hover {
   color: #e58461;
   font-weight: bold;
 }
@@ -59,7 +59,7 @@ header .nav-link:hover {
   background-position: center;
 }
 .mainIndex .indexBackbround {
-  background-color: rgba(240, 255, 255, 0.588);
+  background-color: rgba(240, 255, 255, 0.5882352941);
   height: 65vh;
   width: 100vw;
   padding: 10px;
