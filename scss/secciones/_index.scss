@@ -19,10 +19,7 @@
             justify-content: center;
 
             h1 {
-                font-size: 2.5rem;
-                padding: 10px;
-                color: $RosaViejo;
-                font-weight: bold;
+                @include estiloH1(2.5rem);
 
                 &:hover {
                     transform: skew(-10deg);

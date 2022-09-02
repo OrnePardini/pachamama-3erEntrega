@@ -76,6 +76,7 @@ header .nav-link:hover {
   padding: 10px;
   color: #e58461;
   font-weight: bold;
+  text-align: center;
 }
 .mainIndex .indexBackbround .indexTitulos h1:hover {
   transform: skew(-10deg);
