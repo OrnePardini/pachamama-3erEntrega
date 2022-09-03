@@ -175,6 +175,7 @@ header .nav-link:hover {
 }
 .quienesSomos .qsBackbround {
   background-color: rgba(240, 255, 255, 0.662);
+  height: 74vh;
 }
 .quienesSomos .qsBackbround .titulos {
   font-size: 2.5rem;
@@ -189,7 +190,7 @@ header .nav-link:hover {
   padding: 10px 8px;
 }
 .quienesSomos .qsBackbround .col .fa-seedling,
-.quienesSomos .qsBackbround .col .col .fa-recycle,
+.quienesSomos .qsBackbround .col .fa-recycle,
 .quienesSomos .qsBackbround .col .fa-earth-americas {
   font-size: 4rem;
 }
@@ -288,9 +289,9 @@ header .nav-link:hover {
 
 @media (max-width: 740px) {
   .mainContacto .contactoBackground form {
-    width: 80%;
+    width: 90%;
   }
   .mainContacto .contactoBackground form .form-control {
-    width: 80%;
+    width: 90%;
   }
 }/*# sourceMappingURL=main.css.map */
