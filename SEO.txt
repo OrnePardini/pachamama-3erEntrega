@@ -27,8 +27,8 @@ Detalle de acciones de SEO implementadas en el sitio:
 
 5) <strong> : Se utilizó la etiqueta para resaltar palabras claves en las secciones "FaQ" y "QuiénesSomos"
 
-6) Sitemap : Se incorporó un sitemap para el navegador. (https://www.xml-sitemaps.com/) (agregar en la carpeta)
+6) Sitemap : Se incorporó un sitemap para el navegador. (https://www.xml-sitemaps.com/) 
 
-7) Se testeó Mobile friendly en (https://search.google.com/test/mobile-friendly)
+7) Se testeó Mobile friendly y arrojó resultado óptimo (https://search.google.com/test/mobile-friendly/result?id=kLm6F6OrRj19xkoOQHsccw)
 
 8) Se chequeó el estado de SEO en (https://seositecheckup.com/)

@@ -175,7 +175,6 @@ header .nav-link:hover {
 }
 .quienesSomos .qsBackbround {
   background-color: rgba(240, 255, 255, 0.662);
-  height: 74vh;
 }
 .quienesSomos .qsBackbround .titulos {
   font-size: 2.5rem;
