@@ -32,3 +32,4 @@ Detalle de acciones de SEO implementadas en el sitio:
 7) Se testeó Mobile friendly y arrojó resultado óptimo (https://search.google.com/test/mobile-friendly/result?id=kLm6F6OrRj19xkoOQHsccw)
 
 8) Se chequeó el estado de SEO en (https://seositecheckup.com/)
+
